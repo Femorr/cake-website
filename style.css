@@ -78,6 +78,8 @@ body{
 }
 
 .title a{
+    padding-left: 99rem;
+    /*padding gave the space between the two words*/ 
     margin-left: auto;
     color: #222;
     font-size: 1.5rem;
@@ -188,6 +190,7 @@ body{
  .home .slides-container .slide.active{
     display: flex;
  }
+
  .home .slides-container .slide .content{
     flex: 1 1 40rem;
     animation: fadeLeft .4s linear .4s backwards;
@@ -297,6 +300,102 @@ body{
 .banner-container .banner:hover img{
     transform:scale(1.2);
 }
+
+.category .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    padding: 4rem 0;
+}
+
+.category .box-container .box{
+    text-align: center;
+}
+
+.category .box-container .box img{
+    height: 15rem;
+    width: 21rem;
+}
+
+.category .box-container .box h3{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #222;
+}
+.category .box-container .box:hover h3{
+    color: #fff;
+}
+
+.products .box-container .box{
+    position: relative;
+    background: #f3f3f3;
+    text-align: center;
+    overflow: hidden;
+}
+
+.products .box-container .box .icons{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(243, 243, 243, 0.8);
+    gap: 1rem;
+}
+
+.products .box-container .box .icons a{
+    font-size: 2rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+.products .box-container .box .img{
+    height: 35rem;
+    width: 21rem;
+    object-fit: hidden;
+}
+
+.products .box-container .box .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products .box-container .box .content{
+    padding: 1.5rem;
+}
+
+.products .box-container .box .content h3{
+    font-size: 2rem;
+    color: #222;
+
+}
+
+.products .box-container .box .content .price{
+    font-size: 2rem;
+    color: #222;
+    padding: 1rem 0;
+}
+
+.products .box-container .box .content .stars{
+    font-size: 1.7rem;
+    color: var(--brown);
+
+
+
+
+
+
+
+
+
+
 
 
 
