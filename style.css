@@ -333,6 +333,10 @@ body{
     overflow: hidden;
 }
 
+.products .box-container .box:hover .icons{
+    top: 0;
+}
+
 .products .box-container .box .icons{
     position: absolute;
     top: -10%;
@@ -355,9 +359,14 @@ body{
     color: #222;
 }
 
+.products .box-container .box .icons a:hover{
+    background: var(--brown);
+    color: #fff;
+}
+
 .products .box-container .box .img{
     height: 35rem;
-    width: 21rem;
+    width: 27rem;
     object-fit: hidden;
 }
 
@@ -478,4 +487,4 @@ body{
     .home .slides-container .slide h3{
         font-size: 4rem;
     }
- }
+}
