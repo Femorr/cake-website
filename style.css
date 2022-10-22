@@ -39,8 +39,69 @@ body{
  }
 
  section{
-    padding:3rem 9% ;
+    padding:3rem;
  }
+
+ .plan{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.heading{
+    background: url(images/baker\ 1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+.heading h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.title span{
+    color: #222;
+    padding-left: .7rem;
+}
+
+.title a{
+    margin-left: auto;
+    color: #222;
+    font-size: 1.5rem;
+}
+
+.title a:hover{
+    color: #fff;
+}
+
+/*.heading p{
+    padding-top: 1rem;
+    font: 2rem;
+    color: #fff;
+}
+
+.heading p a{
+    color: #222;
+    padding-right: -5rem;
+
+}
+.heading p a:hover{
+    color: #fff ;
+}*/
+
  .header{
     position: fixed;
     top: 0;
@@ -185,12 +246,6 @@ body{
 .home #prev-slide{
     left:2rem;
 
-}
-
-.plan{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
 }
 
 .home #next-slide{
