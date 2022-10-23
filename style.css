@@ -326,7 +326,7 @@ body{
     color: #fff;
 }
 
-.products .box-container .box{
+.products .box-container .box{ 
     position: relative;
     background: #f3f3f3;
     text-align: center;
@@ -339,7 +339,7 @@ body{
 
 .products .box-container .box .icons{
     position: absolute;
-    top: -10%;
+    top: -105%;
     left: 0;
     height: 30rem;
     display: flex;
@@ -365,9 +365,9 @@ body{
 }
 
 .products .box-container .box .img{
-    height: 35rem;
+    height: 15rem;
     width: 27rem;
-    object-fit: hidden;
+    overflow: hidden;
 }
 
 .products .box-container .box .img img{
@@ -392,10 +392,10 @@ body{
     padding: 1rem 0;
 }
 
-.products .box-container .box .content .stars{
+.products .box-container .box .content .stars i{
     font-size: 1.7rem;
     color: var(--brown);
-
+}
 
 
 
