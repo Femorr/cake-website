@@ -331,6 +331,7 @@ body{
     background: #f3f3f3;
     text-align: center;
     overflow: hidden;
+    display: flex;
 }
 
 .products .box-container .box:hover .icons{
