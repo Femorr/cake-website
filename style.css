@@ -326,7 +326,47 @@ body{
     color: #fff;
 }
 
-.products .box-container .box{ 
+.product .box-container{
+    display: flex;
+    padding: 4rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+
+.product .box-container .box{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background: #f3f3f3;
+}
+
+.product .box-container .box img{
+    height: 20rem;
+    width: 27rem;
+}
+
+.product .box-container .box h3{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #222;
+}
+
+.product .box-container .box:hover  h3{
+    color: #843F11;
+}
+
+.products .box-container .box .content .stars i{
+    font-size: 4rem;
+    color: #843F11;
+}
+
+.products .box-container .box .content .price{
+    font-size: 3rem;
+    color: #222;
+    padding: 1rem;
+}
+
+/*.products .box-container .box{ 
     position: relative;
     background: #f3f3f3;
     text-align: center;
@@ -396,7 +436,7 @@ body{
 .products .box-container .box .content .stars i{
     font-size: 1.7rem;
     color: var(--brown);
-}
+}*/
 
 .about .parent{
     display: flex;
@@ -420,6 +460,10 @@ body{
 
 .about .parent .content p{
     font-size: 2rem;
+}
+
+.about .parent .content .btn{
+    padding: .8rem 2.5rem;
 }
 
 
