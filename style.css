@@ -506,7 +506,7 @@ body{
 }
 
 .gallery .box-container .box .icons a:hover{
-    
+     color: var(--brown );
 }
 
 
